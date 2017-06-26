@@ -1,3 +1,5 @@
+//DO NOT EDIT main file - Create a copy to modify and enhance. New files within the repo will be reviewed and merge to the main file on request.
+
 metadata {
     definition (name: "AXIS Gear", namespace: "axis", author: "AXIS Labs") {  
         capability "Actuator"
@@ -15,7 +17,7 @@ metadata {
                 
         fingerprint profileId: "0200", inClusters: "0000, 0004, 0005, 0006, 0008, 0100, 0102", manufacturer: "AXIS", model: "GR-ZB01-W", deviceJoinName: "AXIS Gear"
         //ClusterIDs: 0000 - Basic; 0004 - Groups; 0005 - Scenes; 0006 - On/Off; 0008 - Level Control; 0100 - Shade Configuration; 0102 - Window Covering;
-        //Updated 2017-06-21
+        //Updated 2017-06-26 - With Axis Share Dev
     }
    
 	tiles(scale: 2) {
